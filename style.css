@@ -1,0 +1,16 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+div {
+    //display: inline-block;
+}
+h4 {
+    font-size: 20px;
+    font-weight: 700;
+}
+p {
+    font-size: 15px;
+}
+img {
+    position: relative;
+}
