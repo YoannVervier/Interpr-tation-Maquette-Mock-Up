@@ -1,3 +1,8 @@
+ div{
+        border: 2px solid rgba(255,2,2,1);
+        box-sizing: border-box;
+    }
+ body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 div {
@@ -13,18 +18,31 @@ p {
 img {
     position: relative;
 }
-div{
-        border: 2px solid rgba(255,2,2,1);
-        box-sizing: border-box;
-    }
+
 
 #mentions{
 	text-align: center;
+	padding-top: 12px;
+}
+#mentions p {
+font-size: 14px;
 }
 
+
 h3{
-	font-family: 'Merriweather', serif;
-    font-weight: bold;    
-	vertical-align: middle;
-	padding-top: 22px;
-	color: #D9384E;
+    font-family: sergoe UI;
+    font-weight: bold;
+    color: #E94859;
+    font-size: 18px;
+}
+#sujet{
+    font-family: sergoe UI;
+    font-weight: bold;
+
+}
+#reseau {
+    background: -webkit-linear-gradient(white, grey);
+    background: -o-linear-gradient(white, grey);
+    background: -moz-linear-gradient(white, grey);
+    background: linear-gradient(white, grey);
+}
