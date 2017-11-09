@@ -73,3 +73,9 @@ background: linear-gradient(white, grey);
 #presentation div img {
     width: 100%;
 }
+.mockup {
+    text-align: center;
+}
+.mockup img{
+    margin-top: 24px;
+ }
