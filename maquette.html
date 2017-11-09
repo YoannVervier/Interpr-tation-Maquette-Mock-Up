@@ -50,41 +50,95 @@
             </section>
         </div>
 
+        <form>
+            <fieldset>
+                <legend>Nom</legend>
+                <p>
+                    <label for="nom"> 
+                        <input type="text" id="Nom"  maxlength="10" /> 
+                    </label>
+                </p>
+
+                <legend>Mail</legend>
+                <p>
+                    <label for="courriel">     
+                        <input type="email" id="courriel" name="courrielutilisateur" required />  
+                    </label>
+                </p>
+
+
+                
+            </fieldset>
+        </form>
+
+        <div>
+            <form class="form-inline">
+                <label class="mr-sm-2" for="inlineFormCustomSelectPref">Sujet</label>
+                    <select class="custom-select mb-2 mr-sm-2 mb-sm-0" id="inlineFormCustomSelectPref">
+                   
+                        <option selected>Postuler...</option>
+                        <option value="1">Information</option>
+                        <option value="2">Presse</option>
+                        <option value="3">Autres</option>
+                    </select>  
+            <form/>
+        </div>
+
+
+
+
+
+
         <footer>
+            <div id="reseau" class="container">
+                <div class="row">
+                    <div class="col-4 ml-auto mr-auto">
+                        <h3> Rejoingez-nous sur :</h3>
+                    </div>     
+                </div>
 
+                <div id="social" class="row">
+                    <div class="col-2">
+                    </div>
+                    <div class="col-8 row">
+                        <div class="col-3">
+                            <a href="https://www.facebook.com/" class="icone" target="_blank">
+                            <img src="facebook.png" alt="button facebook" /></a>
+                        </div>
+                        <div class="col-3">  
+                             <a href="https://www.google.fr//" class="icone" target="_blank">
+                            <img src="google.png" alt="button facebook" /> </a>
+                        </div>
+                        <div class="col-3">
+                            <a href="https://twitter.com/account/access//" class="icone" target="_blank">
+                            <img src="twitter.png" alt="button facebook" /></a>  
+                        </div>
+                        <div class="col-3">
+                            <a href="https://www.instagram.com/?hl=fr//" class="icone" target="_blank">
+                            <img src="Instagram.png" alt="button facebook" /></a>       
+                        </div>
+                    </div>
+                    <div class="col-2">
+                    </div>
+                </div>
+            </div>   
+            <div id="pieddepage" class="container">
 
-
- 
-
-
-<div id="reseau">
-    <div>
-       <p> Rejoingez-nous sur :</p>     
-    </div>
-    <div>
-        <-- icone reseaux sociaux-->
-    </div>
-
-    <div id="pieddepage" class="col-12 ">      
-    
-
-        <div class="row">                        
-            <div class="col-4 ">
-                <h3>MOCKY UP</h3>
+                <div class="row">                        
+                    <div class="col-4 ">
+                        <img src="Mock Up.svg">               
+                    </div> 
+                  
+                    <div id="mentions" class="col-4 ">                
+                        <p>Mentions légales </p>
+                        <p>© Tous droits réservés</p>
+                    </div>  
+                  
+                    <div class="col-4 ">                
+                        <img src="footer1.png">
+                    </div>      
+                </div> 
             </div> 
-      
-            <div id="mentions" class="col-4 ">                
-                <p>Mentions légales </p>
-                <p>Tous droits réservés </p>
-            </div>  
-      
-            <div class="col-4 ">                
-                <img src="footer1.png">
-            </div> 
-
-     
-        </div> 
-    </div>    
-</footer>
+        </footer>
     </body>
 </html>
