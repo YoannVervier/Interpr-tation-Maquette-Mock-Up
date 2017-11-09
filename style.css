@@ -11,6 +11,21 @@
 body {
 font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
+#nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #C9C9C9;
+    z-index: 7000;
+}
+#navbarNavDropdown a {
+    color: #BF2F48;
+    font-size: 15px;
+}
+#navplace {
+    height: 50px;
+}
 h4 {
 font-size: 20px;
 font-weight: 700;
@@ -36,7 +51,7 @@ h3{
 font-family: sergoe UI;
 font-weight: bold;
 color: #E94859;
-font-size: 18px;
+font-size: 17px;
 }
 #sujet{
 font-family: sergoe UI;
@@ -48,6 +63,9 @@ background: -webkit-linear-gradient(white, grey);
 background: -o-linear-gradient(white, grey);
 background: -moz-linear-gradient(white, grey);
 background: linear-gradient(white, grey);
+}
+#social {
+    padding-bottom: 20px;
 }
 .pres{
     margin-top: 20px;
@@ -79,3 +97,19 @@ background: linear-gradient(white, grey);
 .mockup img{
     margin-top: 24px;
  }
+fieldset {
+    color: #BF2F48;
+    font-size: 30px;
+}
+fieldset input {
+    border: 1px solid black;
+    border-radius: 8px;
+    margin-top: 20px;
+}
+#message {
+    height: 150px;
+}
+form {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
