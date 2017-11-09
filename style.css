@@ -1,32 +1,75 @@
-div {
-    border: 2px solid rgba(255,2,2,1);
-    box-sizing: border-box;
+@font-face {
+    font-family: "Onyx";
+    src: url('sardonyx.eot');
+    src: url('sardonyx.otf') format('truetype'),
+         url('sardonyx.woff') format('woff'),
+         url('sardonyx.eot?#iefix') format('embedded-opentype'),
+         url('sardonyx.svg#sardonyxBold') format('svg');
+    font-weight: normal;
+    font-style: normal;
 }
 body {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 h4 {
-    font-size: 20px;
-    font-weight: 700;
+font-size: 20px;
+font-weight: 700;
 }
 p {
-    font-size: 15px;
+font-size: 15px;
 }
 img {
-    position: relative;
+position: relative;
 }
-div{
-        border: 2px solid rgba(255,2,2,1);
-        box-sizing: border-box;
-    }
+
 
 #mentions{
-	text-align: center;
+text-align: center;
+padding-top: 12px;
+}
+#mentions p {
+font-size: 14px;
 }
 
+
 h3{
-	font-family: 'Merriweather', serif;
-    font-weight: bold;    
-	vertical-align: middle;
-	padding-top: 22px;
-	color: #D9384E;
+font-family: sergoe UI;
+font-weight: bold;
+color: #E94859;
+font-size: 18px;
+}
+#sujet{
+font-family: sergoe UI;
+font-weight: bold;
+
+}
+#reseau {
+background: -webkit-linear-gradient(white, grey);
+background: -o-linear-gradient(white, grey);
+background: -moz-linear-gradient(white, grey);
+background: linear-gradient(white, grey);
+}
+.pres{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.pres h2 {
+    color: #BF2F48;
+    font-family: 'Onyx', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 40px;
+    text-align: center;
+}
+.bande {
+    width: 100%;
+    background-color: #BF2F48;
+    color: #BF2F48;
+    margin: auto;
+    height: 15px;
+    border: none;
+}
+#presentation div{
+    padding: 0;
+}
+#presentation div img {
+    width: 100%;
+}
